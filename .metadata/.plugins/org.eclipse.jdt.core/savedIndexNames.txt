@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\dhfhf\Desktop\myfolder\workspace\java_nextStep\.metadata\.plugins\org.eclipse.jdt.core
+779868558.index
+350209090.index
+1865797976.index
