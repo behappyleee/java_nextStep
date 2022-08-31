@@ -8,21 +8,21 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="userId"/>
-			<item value="postOrGetInfo:"/>
-			<item value="postInfo :"/>
+			<item value="User INFO SEARCH :"/>
+			<item value="USER PAX : "/>
+			<item value="User INFO SEARCH : "/>
+			<item value="find New User Info : "/>
+			<item value="PARAM DATA CHECK 1 :"/>
+			<item value="dataBase"/>
 			<item value="URL /user/create"/>
-			<item value="params IS NULL : "/>
-			<item value="params IS Empty :"/>
-			<item value="InputStream line : "/>
-			<item value="사용자 입력 URL :"/>
-			<item value="PARAMS CHECK :"/>
-			<item value="queryString Url Data :"/>
-			<item value="NEW USER 객체 :"/>
-			<item value="GET 방식 QUERY STRING :"/>
-			<item value="queryString URL :"/>
-			<item value="queryString URL : "/>
-			<item value="responseBody"/>
+			<item value="response302Header"/>
+			<item value="USER PAX :"/>
+			<item value="2323213123"/>
+			<item value="RIGHTTT"/>
+			<item value="USER INFO :"/>
+			<item value="DATA BASE MapInfo : "/>
+			<item value="redirectURL"/>
+			<item value="RESPONSE 302 HEADER"/>
 		</list>
 		<list key="replacehistory">
 		</list>
