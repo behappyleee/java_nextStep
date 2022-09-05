@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="response302LoginFailHeader"/>
+		<item key="selection" value="이즈 씨에스에스 :"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="response302LoginFailHeader"/>
-			<item value="logined"/>
-			<item value="lgoined"/>
-			<item value="response302LoginSuccesHeader"/>
-			<item value="OGIN SUCCESS !"/>
+			<item value="이즈 씨에스에스 :"/>
+			<item value="isCssFile"/>
+			<item value="스플릿 확장자 : :"/>
+			<item value="TODO"/>
 			<item value="response200Header"/>
-			<item value="setCookie"/>
-			<item value="response302Header"/>
-			<item value="responseBody"/>
-			<item value="index.html"/>
-			<item value="LOGINED"/>
-			<item value="esponse302LoginSuccesHeader"/>
-			<item value="RESPONSE 302 HEADER"/>
-			<item value="list"/>
-			<item value="/user/list"/>
+			<item value="스플릿 :"/>
+			<item value="익스텐션 :"/>
+			<item value="CSS CHECK :"/>
+			<item value="TEXT CSS URL CHECK : "/>
+			<item value="line 읽어들인 정보 :"/>
+			<item value="parseHeader :"/>
+			<item value="parseHeader"/>
+			<item value="header"/>
+			<item value="Content-Length"/>
+			<item value="Content"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1070"/>
-		<item key="DIALOG_Y_ORIGIN" value="146"/>
+		<item key="DIALOG_X_ORIGIN" value="1281"/>
+		<item key="DIALOG_Y_ORIGIN" value="141"/>
 		<item key="DIALOG_WIDTH" value="418"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
