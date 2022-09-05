@@ -6432,3 +6432,4 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field p
 2022-09-05 22:48:44,746 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-09-05 22:48:44,748 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-09-05 22:48:44,749 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-05 22:48:44,749 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhfhf\Desktop\myfolder\workspace\java_nextStep\web-application-server\src\test\resources
