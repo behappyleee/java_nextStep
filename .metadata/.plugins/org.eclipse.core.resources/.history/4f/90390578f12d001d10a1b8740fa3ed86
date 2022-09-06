@@ -1,0 +1,17 @@
+package webserver;
+
+import java.io.InputStream;
+
+public class HttpRequest {
+	
+	InputStream in;
+	
+	public HttpRequest (InputStream in) {
+		this.in = in;
+	}
+	
+	public String getMethod() {
+		return null;
+	}
+	
+}

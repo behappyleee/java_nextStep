@@ -1,0 +1,14 @@
+package webserver;
+
+public class HttpRequest {
+	
+	
+	public HttpRequest (InputStream in) {
+		
+		
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,12 @@
+package util;
+
+public class HttpRequestTest {
+	private String testDirectory = "./src/test/resources/";
+	
+	@Test
+	public void request_GET() {
+		
+	}
+	
+
+}

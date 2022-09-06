@@ -1,0 +1,17 @@
+package util;
+
+import org.junit.Test;
+
+public class HttpRequestTest {
+	private String testDirectory = "./src/test/resources/";
+	
+	@Test
+	public void request_GET() {
+		
+		
+		
+		
+	}
+	
+
+}

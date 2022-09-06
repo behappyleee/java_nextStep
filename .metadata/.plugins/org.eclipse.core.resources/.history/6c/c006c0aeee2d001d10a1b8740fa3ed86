@@ -1,0 +1,8 @@
+package util;
+
+public class HttpRequestTest {
+	private String testDirectory = "./src/";
+	
+	
+
+}
