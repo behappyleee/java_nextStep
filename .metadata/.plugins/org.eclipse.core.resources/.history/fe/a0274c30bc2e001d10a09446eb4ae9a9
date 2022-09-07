@@ -1,0 +1,27 @@
+
+1) Refactoring 하기
+
+리팩토링 능력을 키우기 위하여서는 많은 연습이 필요
+
+
+-- Git 학습 추천
+http://backlogtool.com/git-guide/kr/ - Git 입문용으로 추천
+http://rogerdudler.github.io/git-guide/index.ko.html - Git 설치 등 기본 사용법에 대한 간편 안내서
+http://slideshare.net/ibare/dvcs-git - Git 의 Commit 과 push 의 개념잡기
+https://www.atlassian.com/git/
+
+-- Maven Buuild 도구 학습
+
+
+
+
+
+-- HTTP 학습
+https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html
+HTTP & Network : 그림으로 배우는 책으로 학습 (우에노 센 저 / 이병억 역) - 입문용으로 추천 HTTP 관련 내용은 3장 까지 읽는걸 추천
+HTTP 완벽 가이드 (데이빗 고울리, 브라이언 토티, 마조리 세이어 등 저) - 어려운 책 이므로 경력을 쌓으면서 읽는것을 추천
+
+
+
+-- 네트워크 학습
+성공과 실패를 결정하는 1%의 네트워크 원리 (Tsutomu Tone 저/이도희 역)

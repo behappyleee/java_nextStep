@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="user"/>
+		<item key="selection" value="readAllInputStream"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="readAllInputStream"/>
+			<item value="HttpRequest"/>
+			<item value="HTTP REQUEST IN : "/>
+			<item value="testDirectory"/>
+			<item value="Stream"/>
+			<item value="inputStream"/>
+			<item value="response302LoginSuccesHeader"/>
+			<item value="response302"/>
+			<item value="response200Header"/>
 			<item value="user"/>
 			<item value="dataBase"/>
 			<item value="isCssFile"/>
 			<item value="responseBody"/>
 			<item value="response200CssHeader"/>
 			<item value="response200JavaScriptHeader"/>
-			<item value="CSS FILE 적용 CSS URL : "/>
-			<item value="TEXT CSS URL CHECK :"/>
-			<item value="line 읽어들인 정보 : "/>
-			<item value="스플릿 확장자 : :"/>
-			<item value="logined"/>
-			<item value="userListHtml"/>
-			<item value="user/list"/>
-			<item value="response302LoginFailHeader"/>
-			<item value="EACH USER DATA :"/>
 		</list>
 		<list key="replacehistory">
 		</list>
