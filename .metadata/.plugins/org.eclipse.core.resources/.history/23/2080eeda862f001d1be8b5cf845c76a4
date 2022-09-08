@@ -1,0 +1,63 @@
+package webserver;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class HttpRequest {
+	
+	Logger logger = LoggerFactory.getLogger(this.getClass());
+	
+	InputStream in;
+	
+	String line;
+	
+	public HttpRequest(InputStream in) {
+		this.in = in;
+		try {
+			InputStreamReader reader = new InputStreamReader(in);
+	    	BufferedReader br = new BufferedReader(reader);
+			String line;
+			this.line = br.readLine();
+			logger.debug("LINE CHECK : {} " , this.line);
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public String getMethod() {
+		logger.debug("GET METHOD : {} ",  line.split(" ")[0] );
+		return line.split(" ")[0];
+	}
+	
+	
+	public String getPath() {
+		logger.debug("GET PATH : {} ",  line.split(" ")[1].split("?")[0]);
+		return line.split(" ")[1].split("?")[0];
+	}
+	
+	
+	
+	public void selectInputStream(String selectLine) {
+		
+	};
+	
+	public void readAllInputStream() {
+		InputStreamReader reader = new InputStreamReader(in);
+    	BufferedReader br = new BufferedReader(reader);
+		String line;
+		
+		try {
+			while((line = br.readLine()) != null) {
+				logger.debug("각 READ LINE : {} " , line);
+			}
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+}
