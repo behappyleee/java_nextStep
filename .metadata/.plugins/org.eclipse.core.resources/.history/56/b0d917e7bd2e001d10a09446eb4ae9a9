@@ -1,0 +1,36 @@
+
+1) Refactoring 하기
+
+리팩토링 능력을 키우기 위하여서는 많은 연습이 필요
+
+
+-- Git 학습 추천
+http://backlogtool.com/git-guide/kr/ - Git 입문용으로 추천
+http://rogerdudler.github.io/git-guide/index.ko.html - Git 설치 등 기본 사용법에 대한 간편 안내서
+http://slideshare.net/ibare/dvcs-git - Git 의 Commit 과 push 의 개념잡기
+https://www.atlassian.com/git/tutorials	- 조금 깊은 Git 학습 추천
+
+-- Git 실습 추천
+https://try.github.io/levels/1/challenges/1	 - Git 실습 15 분만에 배우는 실습
+http://opentutorials.org/course/1492 -- 생활코딩 Git 강좌
+http://dogfeet.github.io/articles/2012/progit.html -- progit 공짜 책
+
+
+-- Maven Buuild 도구 학습
+https://slipp.net/wiki/pages/viewpage.action?pageId=10420233
+https://www.youtube.com/watch?v=Eg1Ebl_KNFg -- 메이븐 빌드 도구 강좌
+https://www.youtube.com/watch?v=A8h1y-qXCbU -- 이클립스에서 메이븐 명령 실행 강좌
+https://www.youtube.com/watch?v=58yiJQU0xEY&feature=youtu.be -- 메이븐 phase, 플러그인 강좌
+https://www.youtube.com/watch?v=ovpVzUaQtSM&feature=youtu.be -- Maven 적용 강좌
+
+-- Loggin 라이브러리 강좌
+https://www.youtube.com/watch?v=TcKEGh7KShI -- loggin framework 강좌
+
+
+-- HTTP 학습
+https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html
+HTTP & Network : 그림으로 배우는 책으로 학습 (우에노 센 저 / 이병억 역) - 입문용으로 추천 HTTP 관련 내용은 3장 까지 읽는걸 추천
+HTTP 완벽 가이드 (데이빗 고울리, 브라이언 토티, 마조리 세이어 등 저) - 어려운 책 이므로 경력을 쌓으면서 읽는것을 추천
+
+-- 네트워크 학습
+성공과 실패를 결정하는 1%의 네트워크 원리 (Tsutomu Tone 저/이도희 역)

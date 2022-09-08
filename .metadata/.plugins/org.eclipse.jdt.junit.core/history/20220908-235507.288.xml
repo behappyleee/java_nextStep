@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HttpRequestTest" project="web-application-server" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="util.HttpRequestTest" time="0.282">
+    <testcase name="request_GET" classname="util.HttpRequestTest" time="0.282">
+      <error>java.util.regex.PatternSyntaxException: Dangling meta character '?' near index 0&#13;
+?&#13;
+^&#13;
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2028)&#13;
+	at java.base/java.util.regex.Pattern.sequence(Pattern.java:2203)&#13;
+	at java.base/java.util.regex.Pattern.expr(Pattern.java:2069)&#13;
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1783)&#13;
+	at java.base/java.util.regex.Pattern.&lt;init&gt;(Pattern.java:1430)&#13;
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)&#13;
+	at java.base/java.lang.String.split(String.java:3150)&#13;
+	at java.base/java.lang.String.split(String.java:3196)&#13;
+	at webserver.HttpRequest.getPath(HttpRequest.java:40)&#13;
+	at util.HttpRequestTest.request_GET(HttpRequestTest.java:27)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
