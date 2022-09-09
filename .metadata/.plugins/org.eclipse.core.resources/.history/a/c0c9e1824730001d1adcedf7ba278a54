@@ -1,0 +1,121 @@
+package webserver;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class HttpRequest {
+	
+	Logger logger = LoggerFactory.getLogger(this.getClass());
+	
+	BufferedReader br;
+	
+	String firstHeaderLine;
+	
+	String allData;
+	
+	
+	public HttpRequest(InputStream in) {
+		try {
+			InputStreamReader reader = new InputStreamReader(in);
+	    	this.br = new BufferedReader(reader);
+	    	this.firstHeaderLine = br.readLine();
+	    	String line;
+	    	
+	    	while((line = br.readLine()) != null) {
+	    		logger.debug("LINE ALL TEST : {} ", line);
+	    	}
+	    	
+	    	
+	    	logger.debug("AFTER BR READ 1 : {} " , line=br.readLine());
+	    	logger.debug("AFTER BR READ 2 : {} " , line=br.readLine());
+	    	
+	    	
+		} catch(IOException e) {
+			e.printStackTrace();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public String getMethod() {
+		return firstHeaderLine.split(" ")[0];
+	}
+	
+	public String getPath() {
+		String path = firstHeaderLine.split(" ")[1];
+		if(path.contains("?")) {
+			return path.split("\\?")[0];
+		} else {
+			return path;
+		}
+	}
+	
+	public String getHeader(String selectHeader) {
+		try {
+			String readLine;
+			while((readLine = br.readLine())!= null) {
+				if(readLine.contains(selectHeader)) {
+					return readLine.split(":")[1].trim(); 
+				}
+			}
+			return null;
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	public String getParameter(String parameter) {
+		
+		logger.debug("GET PARAMETER TEST : {} " , parameter);
+		logger.debug("GET METHOD : {}  ", getMethod());
+		
+		String methodType = getMethod();
+		
+		
+		if(firstHeaderLine.contains("?")) {
+			String [] params = firstHeaderLine.split("\\?")[1].split("&");
+			for(String i : params) {
+				String[] eachParam = i.split("="); 
+				if(eachParam[0].equals(parameter)) {
+					return eachParam[1];
+				}
+			}
+		} else {
+			
+			
+			
+			
+			return null;
+		}
+		
+		
+		return null;
+	}
+	
+	
+	
+	public void selectInputStream(String selectLine) {
+		
+	};
+	
+	public void readAllInputStream() {
+//		InputStreamReader reader = new InputStreamReader(in);
+//    	BufferedReader br = new BufferedReader(reader);
+//		String line;
+//		
+//		try {
+//			while((line = br.readLine()) != null) {
+//				logger.debug("각 READ LINE : {} " , line);
+//			}
+//		} catch(Exception e) {
+//			e.printStackTrace();
+//		}
+	}
+	
+}

@@ -1,0 +1,11 @@
+package util;
+
+public class HttpResponseTest {
+	
+	// 응답 헤더 정보를 Map<String, String> 으로 관리
+	
+	
+	
+	
+	
+}
