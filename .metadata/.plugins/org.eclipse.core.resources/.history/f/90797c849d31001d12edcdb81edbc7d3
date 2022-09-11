@@ -1,0 +1,12 @@
+package http;
+
+import org.slf4j.LoggerFactory;
+
+public class HttpRequest {
+	
+	private static final Logger logger = LoggerFactory.getLogger(this.);
+	
+	
+	
+	
+}

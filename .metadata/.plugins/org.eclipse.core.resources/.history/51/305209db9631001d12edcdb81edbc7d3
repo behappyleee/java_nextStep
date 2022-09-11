@@ -1,0 +1,25 @@
+package controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import webserver.HttpRequest;
+import webserver.HttpResponse;
+
+public class ControllerImpl implements Controller{
+
+	Map<String, Controller> controller = new HashMap<>();
+
+	// doGet / doPost 로 구분 ...
+	@Override
+	public void service(HttpRequest request, HttpResponse response) {
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+}

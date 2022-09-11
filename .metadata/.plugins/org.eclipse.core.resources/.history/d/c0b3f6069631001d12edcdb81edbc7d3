@@ -1,0 +1,12 @@
+package controller;
+
+import webserver.HttpRequest;
+import webserver.HttpResponse;
+
+public interface controller {
+	
+	void service(HttpRequest request, HttpResponse response);
+	
+	
+	
+}

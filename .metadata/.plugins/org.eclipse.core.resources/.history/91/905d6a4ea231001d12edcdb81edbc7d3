@@ -1,0 +1,12 @@
+package http;
+
+import org.slf4j.LoggerFactory;
+
+public class RequestLine {
+	
+	Logger logger = LoggerFactory.getLogger(this.getClass());
+	
+	
+	
+	
+}

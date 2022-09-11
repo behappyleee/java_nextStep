@@ -1,0 +1,16 @@
+package controller;
+
+import webserver.HttpRequest;
+import webserver.HttpResponse;
+
+public interface controller {
+	
+	// 각 요청에 응답에 대한 처리 담당하는 부분을 추상화하여 인터페이스로 만듦
+	// Controller 구현체를 Map<String, Controller> 에 저장 시킨다. 
+	
+	
+	
+	
+	void service(HttpRequest request, HttpResponse response);
+	
+}

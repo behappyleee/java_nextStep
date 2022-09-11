@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HttpResponseTest (1)" project="web-application-server" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="http.HttpResponseTest" time="0.012">
+    <testcase name="responseForward" classname="http.HttpResponseTest" time="0.011"/>
+    <testcase name="responseRedirect" classname="http.HttpResponseTest" time="0.001"/>
+    <testcase name="responseCookies" classname="http.HttpResponseTest" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,36 @@
+package controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import webserver.HttpRequest;
+import webserver.HttpResponse;
+
+public abstract class AbstractController implements Controller{
+
+	Logger logger = LoggerFactory.getLogger(this.getClass());
+	
+	Map<String, Controller> controller = new HashMap<>();
+	
+	// 로직 처리 완료 후 클라이언트에 대한 응답 헤더와 본문 데이터 처리 작업으로 나뉨
+	// 
+	
+	
+	
+	// doGet / doPost 로 구분 ...
+	@Override
+	public void service(HttpRequest request, HttpResponse response) {
+		logger.debug("ABSTRACT CONTOLLER SERVICE !!");
+		logger.debug("AbstarctController GET PATH : {} ", request.getPath());
+		
+		
+	}
+	
+	abstract public void doGet(HttpRequest request, HttpResponse response);
+	
+	abstract public void doPost(HttpRequest request, HttpResponse response);
+	
+}

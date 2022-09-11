@@ -1,0 +1,29 @@
+package controller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import webserver.HttpRequest;
+import webserver.HttpResponse;
+
+public class CreateUserController extends AbstractController {
+	
+	Logger logger = LoggerFactory.getLogger(this.getClass());
+	
+	@Override
+	public void doGet(HttpRequest request, HttpResponse response) {
+		
+		
+		
+		
+	}
+	
+	@Override
+	public void doPost(HttpRequest request, HttpResponse response) {
+		
+		
+		
+		
+	}
+	
+}

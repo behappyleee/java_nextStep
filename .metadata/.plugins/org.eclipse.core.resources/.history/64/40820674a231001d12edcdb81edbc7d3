@@ -1,0 +1,24 @@
+package http;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class RequestLine {
+	
+	Logger logger = LoggerFactory.getLogger(this.getClass());
+	
+	private String method;
+	private String path;
+	private Map<String, String> params = new HashMap<String, String>();
+	
+	public RequestLine(String requestLine) {
+		logger.debug("REQUEST LINE");
+	}
+	
+	
+	
+	
+}

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="HttpResponseTest" project="web-application-server" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="util.HttpResponseTest" time="0.0">
-    <testcase name="responseForward" classname="util.HttpResponseTest" time="0.0"/>
-  </testsuite>
-</testrun>
