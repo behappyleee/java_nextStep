@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="GET PARAMETER DATA :"/>
+		<item key="selection" value="getDefaultPath"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="getDefaultPath"/>
+			<item value="isLogin"/>
+			<item value="processRequestLine"/>
 			<item value="GET PARAMETER DATA :"/>
 			<item value="getParameter"/>
 			<item value="PATH CHECK :"/>
@@ -20,9 +23,6 @@
 			<item value="response302LoginSuccesHeader"/>
 			<item value="response302"/>
 			<item value="response200Header"/>
-			<item value="user"/>
-			<item value="dataBase"/>
-			<item value="isCssFile"/>
 		</list>
 		<list key="replacehistory">
 		</list>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="RequestLineTest" project="web-application-server" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="http.RequestLineTest" time="0.001">
-    <testcase name="create_method" classname="http.RequestLineTest" time="0.0"/>
-    <testcase name="create_path_and_params" classname="http.RequestLineTest" time="0.001"/>
-  </testsuite>
-</testrun>
