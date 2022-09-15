@@ -14,8 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/hello")
 public class HelloWorldServlet extends HttpServlet {
 	
-	private static int testNum = 5;
-	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res)
 		throws ServletException, IOException {

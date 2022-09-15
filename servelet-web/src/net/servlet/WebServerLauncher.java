@@ -9,6 +9,9 @@ public class WebServerLauncher {
 	
 	// EmbedTomcat 설정 추가 
     public static void main(String[] args) throws Exception {
+    	
+    	System.out.println("WEB SERVER LAUNCHER TEST !!!!");
+    	
         String webappDirLocation = "webapp/";
         Tomcat tomcat = new Tomcat();
         String webPort = System.getenv("PORT");

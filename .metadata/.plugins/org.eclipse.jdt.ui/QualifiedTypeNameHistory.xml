@@ -20,4 +20,6 @@
     <fullyQualifiedTypeName name="controller.Controller"/>
     <fullyQualifiedTypeName name="org.apache.tomcat.jni.File"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger.Level"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
 </qualifiedTypeNameHistroy>
