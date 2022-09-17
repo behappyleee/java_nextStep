@@ -8,13 +8,9 @@
     <fullyQualifiedTypeName name="webserver.HttpResponse"/>
     <fullyQualifiedTypeName name="util.IOUtils"/>
     <fullyQualifiedTypeName name="util.HttpRequestUtils"/>
-    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
-    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.nio.file.Files"/>
-    <fullyQualifiedTypeName name="db.DataBase"/>
     <fullyQualifiedTypeName name="java.net.http.HttpRequest"/>
-    <fullyQualifiedTypeName name="http.HttpRequest"/>
     <fullyQualifiedTypeName name="http.HttpResponse"/>
     <fullyQualifiedTypeName name="controller.RequestMapping"/>
     <fullyQualifiedTypeName name="controller.Controller"/>
@@ -22,4 +18,13 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.lang.System.Logger.Level"/>
     <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="util.HttpCookie"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="http.HttpRequest"/>
+    <fullyQualifiedTypeName name="util.HttpSessions"/>
+    <fullyQualifiedTypeName name="db.DataBase"/>
+    <fullyQualifiedTypeName name="util.HttpSession"/>
 </qualifiedTypeNameHistroy>
