@@ -13,13 +13,10 @@
     <fullyQualifiedTypeName name="java.net.http.HttpRequest"/>
     <fullyQualifiedTypeName name="http.HttpResponse"/>
     <fullyQualifiedTypeName name="controller.RequestMapping"/>
-    <fullyQualifiedTypeName name="controller.Controller"/>
     <fullyQualifiedTypeName name="org.apache.tomcat.jni.File"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.lang.System.Logger.Level"/>
     <fullyQualifiedTypeName name="java.lang.System.Logger"/>
-    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
-    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
     <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="util.HttpCookie"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
@@ -27,4 +24,7 @@
     <fullyQualifiedTypeName name="util.HttpSessions"/>
     <fullyQualifiedTypeName name="db.DataBase"/>
     <fullyQualifiedTypeName name="util.HttpSession"/>
+    <fullyQualifiedTypeName name="controller.Controller"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 </qualifiedTypeNameHistroy>
